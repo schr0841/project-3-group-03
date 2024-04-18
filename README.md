@@ -44,7 +44,7 @@ Transformation of the datasets included:
 
 ### Data Validation
 
-Once the csv files were cleaned in Python, we created validation tests using the Pandera Python package to check that the data values were as expected.  We were able to identify many null values in a column of our cleaned dataframe that we did not expect to be there. The following image represents the created test suite:
+Once the csv files were cleaned in Python, we created validation tests using the Pandera Python package to check that the data values were as expected.  We were able to identify null values in a column of our cleaned dataframe that we did not expect to be there. The following image represents the created test suite:
 
 ![validation1](https://github.com/schr0841/project-3-group-03/blob/main/images/validation1.png)
 
