@@ -3,7 +3,7 @@
 ### Contributors: Gregory Schreiter, Marsha Cole, Blake Sandvick, Eriel Kabambi (Group-03)
 
 ### Description 
-This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python...). By dissecting various indicators categorized by state, we constructed an entity relationship diagram (ERD) using PostgreSQL and conducted data analysis utilizing Python SQLAlchemy library to address our research questions.
+This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python, etc.). By dissecting various indicators categorized by state, we constructed an entity relationship diagram (ERD) using PostgreSQL and conducted data analysis utilizing the Python SQLAlchemy library to address our research questions.
 
 ### File contents
 - [Resources folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, `hd_csv`, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, `us-regions_census`, houses the total population figures for each state.
@@ -66,7 +66,10 @@ The ERD clearly shows the two tables of data in our database.
 Using a local PostgreSQL server, we were able to query the data using SQLAlchemy combined with psycopg2 and bring the results back into Python for further use.
 
 ## Research Questions
-Our initial query showed that there was not uniform sampling done in each state. Vermont had the highest sampling rate at 0.009, and California had the lowest at 0.0001:
+Our initial query showed that there was not uniform sampling done in each state. 
+- Vermont had the highest sampling rate at 0.009
+- California had the lowest at 0.0001
+  
 ![Q1](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ1.png)
 
 #### How does the incidence of heart disease vary across states/regions of the US?
@@ -74,12 +77,12 @@ Our initial query showed that there was not uniform sampling done in each state.
 ![Q3](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ3.png)
 
 States:  
-Highest - Arkansas at 8% 
-Lowest - District of Columbia at 3%
+- Highest - Arkansas at 8% 
+- Lowest - District of Columbia at 3%
 
 Regions:  
-Highest - South at 6% 
-Lowest - West at 4.9%
+- Highest - South at 6% 
+- Lowest - West at 4.9%
 
 #### Do males or females have a higher incidence of heart disease?
 ![Q4](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ4.png)
@@ -88,7 +91,7 @@ Males have a higher rate of heart disease at 7% than females (4%)
 ## Conclusion
 This data engineering project demonstrates the process of extracting, transforming (using Python Pandas library), and loading data from csv files into a PostgreSQL database. Additionally, the Python SQLAlchemy library was used for reading data from the database and displaying it for future use. The provided scripts and documentation serve as a guide for understanding and replicating the ETL process for similar datasets. 
 
-We learned that transformed csv files in pandas can sometimes result in columns with missing values. It is important to always check for this before creating a SQL database schema. Further work on this project could include creating interactive visualizations in Flask and researching ways to host the database on the web as opposed to a local server.
+We learned that transformed csv files in Pandas can sometimes result in columns with missing values. It is important to always check for this before creating a SQL database schema. Further work on this project could include creating interactive visualizations in Flask and researching ways to host the database on the web as opposed to a local server.
 
 ## Data ethics
 The heart disease indicator dataset used during this project from Kaggle was legally obtained from the Center for Disease Control and the US Census Bureau. Each state health department collected the data using random digit dialing to administer the BRFSS Frequently Asked Questions (BRFSS) surveys continuously throughout the year. The data contained no personally identifiable information that would violate HIPAA. Furthermore, due to the anonymous nature of the survey and the fact that the covered entity (individual, organization, or agency that must follow HIPAA rules) did not administer the survey, there is no HIPAA obligation. 
