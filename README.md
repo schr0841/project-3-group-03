@@ -19,16 +19,20 @@ The data used during this project was all legally obtained from the Center for D
 
 
 ## Project pipeline: 
-## csv/xlsx -> Python (pandas/pandera) -> PostgreSQL -> Python(SQLAlchemy)
+### csv/xlsx -> Python (pandas/pandera) -> PostgreSQL -> Python(SQLAlchemy)
 
 ### Data Sources
 Pytlak, Kamil (n.d.). Indicators of Heart Disease (2022 Update). 
+
 Retrieved from Kaggle: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/
+
 246022 entries across 40 columns. Key columns: Demographics, health status, medical history, lifestyle, etc.
 
 
 United States Census Bureau (2024). National Population by Characteristics: 2020-2023. 
+
 Retrieved from: https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html
+
 67 entries across 4 columns. Key columns: State, total population (18+ yrs), total number (18+ yrs), total percent 
 
 
@@ -37,11 +41,17 @@ Retrieved from: https://www.census.gov/data/tables/time-series/demo/popest/2020s
 Transformation of the datasets included:
 
 Splitting the ‘RaceEthnicityCategory’ to Race and Ethnicity 
+
 Limiting the scope of the the project to the US states and the District of Columbia by dropping the US territories (both datasets)
+
 Replacing No/Yes values with numeric boolean values (0/1) 
+
 Converting datatypes (both datasets)
+
 Renaming of the columns
+
 Removing periods (with regular expression)
+
 Creating a new column to assign each state to a US region
 
 ### Data Validation
