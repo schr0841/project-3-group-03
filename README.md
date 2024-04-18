@@ -5,17 +5,17 @@
 ### Description 
 This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python, etc.). By dissecting various indicators categorized by state, we constructed an entity relationship diagram (ERD) using PostgreSQL and conducted data analysis utilizing the Python SQLAlchemy library to address our research questions.
 
-### File contents
+### File Contents
 - [Resource folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, `hd_csv`, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, `us-regions_census`, houses the total population figures for each state.
 
 - [Data folder](https://github.com/schr0841/project-3-group-03/tree/main/data): Contains the original csv files extracted from Kaggle and the US Census Bureau website.
   
 - [Images folder](https://github.com/schr0841/project-3-group-03/tree/main/images): Contains various screenshots of our outputs.
 
-### Database documentation
+### Database Documentation
 As a group, we were interested in working on a healthcare project, and we found the dataset to be large and suitable for our needs. We used Pandas to clean and transform the data, Pandera for data validation, PostgreSQL to create the schema and an entity relationship diagram (ERD), and SQLAlchemy to run various queries and find answers to our research questions.
 
-## Project pipeline: 
+## Project Pipeline
 ### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python (SQLAlchemy)
 
 ### Data Sources
@@ -62,7 +62,7 @@ Using the cleaned and validated csv files, we created a PostgreSQL database to h
 The ERD clearly shows the two tables of data in our database.
 
 
-### SQLAlchemy for database retrieval
+### SQLAlchemy for Database Retrieval
 Using a local PostgreSQL server, we were able to query the data using SQLAlchemy combined with psycopg2 and bring the results back into Python for further use.
 
 ## Research Questions
@@ -93,7 +93,7 @@ This data engineering project demonstrates the process of extracting, transformi
 
 We learned that transformed csv files in Pandas can sometimes result in columns with missing values. It is essential to check for this before creating an SQL database schema. Further work on this project could include creating interactive visualizations in Flask and researching ways to host the database on the web as opposed to a local server.
 
-## Data ethics
+## Data Ethics
 The heart disease indicator dataset from Kaggle used during this project was legally obtained from the Centers for Disease Control. Each state health department collected the data using random digit dialing to continuously administer the BRFSS Frequently Asked Questions (BRFSS) surveys throughout the year. The data contained no personally identifiable information that would violate HIPAA. Furthermore, due to the anonymous nature of the survey and the fact that a covered entity (individual, organization, or agency that must follow HIPAA rules) did not administer the survey, there is no HIPAA obligation. 
 
 ## References
