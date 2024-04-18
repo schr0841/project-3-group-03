@@ -66,7 +66,7 @@ The ERD clearly shows the two tables of data in our database.
 Using a local PostgreSQL server, we were able to query the data using SQLAlchemy combined with psycopg2 and bring the results back into Python for further use.
 
 ## Research Questions
-Our initial query showed that there was not uniform sampling done in each state. 
+Our initial query showed that no uniform sampling was done in each state. 
 - Vermont had the highest sampling rate at 0.009
 - California had the lowest at 0.0001
   
@@ -89,12 +89,12 @@ Regions:
 Males have a higher rate of heart disease at 7% than females (4%)
 
 ## Conclusion
-This data engineering project demonstrates the process of extracting, transforming (using Python Pandas library), and loading data from csv files into a PostgreSQL database. Additionally, the Python SQLAlchemy library was used for reading data from the database and displaying it for future use. The provided scripts and documentation serve as a guide for understanding and replicating the ETL process for similar datasets. 
+This data engineering project demonstrates the process of extracting, transforming (using Python Pandas library), and loading data from csv files into a PostgreSQL database. Additionally, the Python SQLAlchemy library was used to read and display data from the database for future use. The provided scripts and documentation serve as a guide for understanding and replicating the ETL process for similar datasets. 
 
-We learned that transformed csv files in Pandas can sometimes result in columns with missing values. It is important to always check for this before creating a SQL database schema. Further work on this project could include creating interactive visualizations in Flask and researching ways to host the database on the web as opposed to a local server.
+We learned that transformed csv files in Pandas can sometimes result in columns with missing values. It is essential to check for this before creating an SQL database schema. Further work on this project could include creating interactive visualizations in Flask and researching ways to host the database on the web as opposed to a local server.
 
 ## Data ethics
-The heart disease indicator dataset used during this project from Kaggle was legally obtained from the Center for Disease Control and the US Census Bureau. Each state health department collected the data using random digit dialing to administer the BRFSS Frequently Asked Questions (BRFSS) surveys continuously throughout the year. The data contained no personally identifiable information that would violate HIPAA. Furthermore, due to the anonymous nature of the survey and the fact that the covered entity (individual, organization, or agency that must follow HIPAA rules) did not administer the survey, there is no HIPAA obligation. 
+The heart disease indicator dataset used during this project (from Kaggle) was legally obtained from the Centers for Disease Control and the US Census Bureau. Each state health department collected the data using random digit dialing to continuously administer the BRFSS Frequently Asked Questions (BRFSS) surveys throughout the year. The data contained no personally identifiable information that would violate HIPAA. Furthermore, due to the anonymous nature of the survey and the fact that the covered entity (individual, organization, or agency that must follow HIPAA rules) did not administer the survey, there is no HIPAA obligation. 
 
 ## References
 Center for Disease Control and Prevention (2018). BRFSS Frequently Asked Questions. Retrieved from https://www.cdc.gov/brfss/about/brfss_faq.htm
