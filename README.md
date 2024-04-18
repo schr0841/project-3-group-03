@@ -72,7 +72,7 @@ Our initial query showed that there was not uniform sampling done in each state.
   
 ![Q1](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ1.png)
 
-#### How does the incidence of heart disease vary across states/regions of the US?
+### How does the incidence of heart disease vary across states/regions of the US?
 ![Q2](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ2.png)
 ![Q3](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ3.png)
 
@@ -84,7 +84,7 @@ Regions:
 - Highest - South at 6% 
 - Lowest - West at 4.9%
 
-#### Do males or females have a higher incidence of heart disease?
+### Do males or females have a higher incidence of heart disease?
 ![Q4](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ4.png)
 Males have a higher rate of heart disease at 7% than females (4%)
 
