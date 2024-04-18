@@ -1,6 +1,6 @@
 # Exploring Heart Disease Indicators: A Data Engineering Project
 
-## Contributors: Gregory Schreiter, Marsha Cole, Blake Sandvick, Eriel Kabambi (Group-03)
+### Contributors: Gregory Schreiter, Marsha Cole, Blake Sandvick, Eriel Kabambi (Group-03)
 
 ### Description 
 This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python...). By dissecting various indicators categorized by state, we constructed an entity relationship diagram (ERD) using PostgreSQL and conducted data analysis utilizing Python SQLAlchemy library to address our research questions.
