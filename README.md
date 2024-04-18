@@ -82,4 +82,36 @@ The ERD clearly shows the two tables of data in our database.
 Using a local PostgreSQL server, we were able to query the data using SQLAlchemy combined with psycopg2 and bring the results of those queries back into Python for further use.
 
 
+Our initial query showed that there was not uniform sampling done in each state. Vermont had the highest sampling rate at 0.009, and California had the lowest at 0.0001:
 
+
+![Q1](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ1.png)
+
+### How does the incidence of heart disease vary across states/regions of the US?
+![Q2](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ2.png)
+
+![Q3](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ3.png)
+
+
+State:  Highest - Arkansas at 8% 
+
+Lowest - District of Columbia at 3%
+
+Region:  Highest - South at 6% 
+Lowest - West at 4.9%
+
+### Do males or females have a higher incidence of heart disease?
+
+![Q4](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ4.png)
+
+
+Males have a higher rate of heart disease at 7% than females (4%)
+
+
+### Conclusions and further work
+
+Data Ethics: Due to the anonymous nature of the survey that was not done by a covered entity there is no HIPAA obligations.
+
+Lesson Learned: We learned that cleaning csv files in pandas can sometimes result in columns that have strange qualities such as null values. It is important to always check for this before creating a SQL database schema.
+
+Next Steps: Further work on this project could include creating interactive visualizations in flask, and researching ways to host the database on the web as opposed to a local server.
