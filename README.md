@@ -16,7 +16,7 @@ This project delves into the complexities of heart disease by analyzing datasets
 As a group, we were interested in working on a healthcare project, and we found the dataset to be large and suitable for our needs. We used Pandas to clean and transform the data, Pandera for data validation, PostgreSQL to create the schema and an entity relationship diagram (ERD), and SQLAlchemy to run various queries and find answers to our research questions.
 
 ## Project pipeline: 
-### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python(SQLAlchemy)
+### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python (SQLAlchemy)
 
 ### Data Sources
 The datasets were obtained from:
