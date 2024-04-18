@@ -9,7 +9,7 @@ Resources folder: contains the cleaned files utilized as our database. The prima
 Data folder:  contains the original csv files extracted from Kaggle and the census website.
 Images folder:  contains various screenshots of our outputs.
 
-### Database documentaion
+### Database documentation
 As a group, we were interested in working on a healthcare project, and we found this dataset to be large and suitable for our needs. We used pandas to clean up the data, Postgres to create an entity relationship diagram (ERD), and SQL Alchemy to run various queries and find answers to our questions.
 ### Data ethics
 The data used during this project was all legal, and none of it included personal information.
