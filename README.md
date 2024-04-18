@@ -6,7 +6,7 @@
 This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python...). By dissecting various indicators categorized by state, we construct an entity relationship diagram (ERD) using Postgres and conduct data analysis utilizing Python and SQL Alchemy to address our research questions.
 
 ### File contents
-- [Resources folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, hd_csv, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, "us-regions_census," houses the total population figures for each state.
+- [Resources folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, `hd_csv`, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, `us-regions_census`, houses the total population figures for each state.
 
 - [Data folder](https://github.com/schr0841/project-3-group-03/tree/main/data): Contains the original csv files extracted from Kaggle and the census website.
   
