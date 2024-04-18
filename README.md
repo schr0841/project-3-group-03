@@ -13,7 +13,7 @@ This project delves into the complexities of heart disease by analyzing datasets
 - [Images folder](https://github.com/schr0841/project-3-group-03/tree/main/images): Contains various screenshots of our outputs.
 
 ### Database documentation
-As a group, we were interested in working on a healthcare project, and we found this dataset to be large and suitable for our needs. We used pandas to clean up the data, Postgres to create a schema and an entity relationship diagram (ERD), and SQL Alchemy to run various queries and find answers to our research questions.
+As a group, we were interested in working on a healthcare project, and we found the dataset to be large and suitable for our needs. We used Pandas to clean and transform the data, Pandera for data validation, PostgreSQL to create the schema and an entity relationship diagram (ERD), and SQLAlchemy to run various queries and find answers to our research questions.
 
 ## Project pipeline: 
 ### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python(SQLAlchemy)
