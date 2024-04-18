@@ -1,7 +1,8 @@
 # Project-3 for the University of Minnesota Data Visualization and Analytics Bootcamp
 ## Contributors: Gregory Schreiter, Marsha Cole, Blake Sandvick, Eriel Kabambi(Group-03)
 ### Description 
-This project aims to delve into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. By dissecting various indicators categorized by state, we construct an entity relationship diagram (ERD) using Postgres and conduct data analysis utilizing Python and SQL Alchemy to address our research questions.
+This project aims to delve into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow to our database and transform the data in creating different tables usable for analysis in various languages (SQL, Python,..).
+By dissecting various indicators categorized by state, we construct an entity relationship diagram (ERD) using Postgres and conduct data analysis utilizing Python and SQL Alchemy to address our research questions.
 
 ### File contents
 Resources folder: contains the cleaned files utilized as our database. The primary file hd_csv contains various indicators of heart disease segmented by state within the population estimate. The secondary file named "us-regions_census," houses the total population figures for each state.
