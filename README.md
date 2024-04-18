@@ -8,7 +8,7 @@ This project delves into the complexities of heart disease by analyzing datasets
 ### File contents
 - [Resources folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, `hd_csv`, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, `us-regions_census`, houses the total population figures for each state.
 
-- [Data folder](https://github.com/schr0841/project-3-group-03/tree/main/data): Contains the original csv files extracted from Kaggle and the census website.
+- [Data folder](https://github.com/schr0841/project-3-group-03/tree/main/data): Contains the original csv files extracted from Kaggle and the US Census Bureau website.
   
 - [Images folder](https://github.com/schr0841/project-3-group-03/tree/main/images): Contains various screenshots of our outputs.
 
