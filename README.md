@@ -103,6 +103,5 @@ Endjin (2024). Data validation in Python: A look into Pandera and Great Expectat
 
 Pytlak, Kamil (n.d.). Indicators of Heart Disease (2022 Update). Retrieved from Kaggle https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/
 
-United States Census Bureau (2024). National Population by Characteristics: 2020-2023. Retrieved from https://www.census.gov/data/tables/time-series/demo/popest/
-2020s-national-detail.html
+United States Census Bureau (2024). National Population by Characteristics: 2020-2023. Retrieved from https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html
 
