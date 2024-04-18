@@ -18,7 +18,7 @@ The data used during this project was all legally obtained from the Center for D
 
 
 
-## Project pipeline: csv/xlsx -> Python (pandas/pandera) -> PostgreSQL -> Python (SQLAlchemy)
+## Project pipeline: csv/xlsx -> Python (pandas/pandera) -> PostgreSQL -> Python(SQLAlchemy)
 
 ### Data Sources
 Pytlak, Kamil (n.d.). Indicators of Heart Disease (2022 Update). Retrieved from Kaggle: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/
