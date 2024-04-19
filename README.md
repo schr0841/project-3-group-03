@@ -51,6 +51,7 @@ Transformation of the datasets includes, but is not limited to:
 ### Data Validation
 
 Clean the datasets using the Python Pandas library, then create validation tests using the Pandera Python package to check that the data values are as expected.  
+
 We were able to identify null values in a column of our cleaned dataframe that we did not expect to be there. This allowed us to create an accurate schema in PostgreSQL that successfully loaded the data. The following image represents the created test suite:
 
 ![validation1](https://github.com/schr0841/project-3-group-03/blob/main/images/validation1.png)
@@ -61,6 +62,7 @@ We were able to identify null values in a column of our cleaned dataframe that w
 ### Database Creation
 
 Create the schema in PostgreSQL and generate the Entity Relationship Diagram, then create the tables and import the data. 
+
 We created a PostgreSQL database to house the tables. The ERD clearly shows the two tables of data in our database. SQL was chosen because our csv files contain well-structured survey response data. 
 
 ![ERD](https://github.com/schr0841/project-3-group-03/blob/main/images/ERD.png)
