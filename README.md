@@ -5,6 +5,7 @@
 ### Description 
 This project delves into the complexities of heart disease by analyzing datasets on heart disease indicators and the US population for the year 2022. The purpose of this work is to employ the ETL workflow in our database and transform the data to create different tables usable for analysis in various languages (SQL, Python, etc.). By dissecting various indicators categorized by state, we constructed an entity relationship diagram (ERD) using PostgreSQL and conducted data analysis utilizing the Python SQLAlchemy library to address our research questions.
 
+
 ### File Contents
 - [Resource folder](https://github.com/schr0841/project-3-group-03/tree/main/Resource): Contains the cleaned files utilized as our database. The primary file, `hd_csv`, contains various indicators of heart disease segmented by state within the population estimate. The secondary file, `us-regions_census`, houses the total population figures for each state.
 
@@ -12,21 +13,25 @@ This project delves into the complexities of heart disease by analyzing datasets
   
 - [Images folder](https://github.com/schr0841/project-3-group-03/tree/main/images): Contains various screenshots of our outputs.
 
+
 ### Database Documentation
 As a group, we were interested in working on a healthcare project, and we found the dataset to be large and suitable for our needs. We used Pandas to clean and transform the data, Pandera for data validation, PostgreSQL to create the schema and an entity relationship diagram (ERD), and SQLAlchemy to run various queries and find answers to our research questions.
 
 ## Project Pipeline
+To execute the ETL process, follow these steps:
 ### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python (SQLAlchemy)
 
+
 ### Data Sources
-The datasets were obtained from:
+The datasets:
 1. [Indicators of Heart Disease (2022 Update)](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/)
 
 2. [National Population by Characteristics: 2020-2023](https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html)
 
+
 ### Data Cleaning
 
-Transformation of the datasets included:
+Transformation of the datasets includes, but is not limited to:
 
 - Splitting the ‘RaceEthnicityCategory’ column to Race and Ethnicity (heart disease dataset)
 
@@ -42,28 +47,28 @@ Transformation of the datasets included:
 
 - Creating a new column to assign each state to a US region (census data)
 
+
 ### Data Validation
 
-Once the csv files were cleaned in Python, we created validation tests using the Pandera Python package to check that the data values were as expected.  We were able to identify null values in a column of our cleaned dataframe that we did not expect to be there. The following image represents the created test suite:
+Clean the datasets using the Python Pandas library, then create validation tests using the Pandera Python package to check that the data values are as expected.  
+We were able to identify null values in a column of our cleaned dataframe that we did not expect to be there. This allowed us to create an accurate schema in PostgreSQL that successfully loaded the data. The following image represents the created test suite:
 
 ![validation1](https://github.com/schr0841/project-3-group-03/blob/main/images/validation1.png)
 
 ![validation2](https://github.com/schr0841/project-3-group-03/blob/main/images/validation2.png)
 
-This allowed us to create an accurate schema in PostgreSQL that successfully loaded the data.
-
 
 ### Database Creation
 
-Using the cleaned and validated csv files, we created a PostgreSQL database to house the tables. SQL was chosen because our csv files contain well-structured survey  response data. We created a schema in PostgreSQL and generated an Entity Relationship Diagram based on that:
+Create the schema in PostgreSQL and generate the Entity Relationship Diagram, then create the tables and import the data. 
+We created a PostgreSQL database to house the tables. The ERD clearly shows the two tables of data in our database. SQL was chosen because our csv files contain well-structured survey response data. 
 
 ![ERD](https://github.com/schr0841/project-3-group-03/blob/main/images/ERD.png)
-
-The ERD clearly shows the two tables of data in our database.
 
 
 ### SQLAlchemy for Database Retrieval
 Using a local PostgreSQL server, we were able to query the data using SQLAlchemy combined with psycopg2 and bring the results back into Python for further use.
+
 
 ## Research Questions
 Our initial query showed that no uniform sampling was done in each state. 
@@ -88,6 +93,7 @@ Regions:
 ![Q4](https://github.com/schr0841/project-3-group-03/blob/main/images/researchQ4.png)
 Males have a higher rate of heart disease at 7% than females (4%)
 
+
 ## Conclusion
 This data engineering project demonstrates the process of extracting, transforming (using Python Pandas library), and loading data from csv files into a PostgreSQL database. Additionally, the Python SQLAlchemy library was used to read and display data from the database for future use. The provided scripts and documentation serve as a guide for understanding and replicating the ETL process for similar datasets. 
 
@@ -98,6 +104,7 @@ The heart disease indicator dataset from Kaggle used during this project was leg
 
 ## Powerpoint Presentation
 [Heart Disease Presentation](https://docs.google.com/presentation/d/1nbJjvZ2oBHr72w8mUIXYPjzHL8iaukPHhhD4FCmoun8/edit?usp=sharing)
+
 
 ## References
 Center for Disease Control and Prevention (2018). BRFSS Frequently Asked Questions. Retrieved from https://www.cdc.gov/brfss/about/brfss_faq.htm
