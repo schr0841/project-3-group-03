@@ -28,7 +28,7 @@ The datasets were obtained from:
 
 Transformation of the datasets included:
 
-- Splitting the ‘RaceEthnicityCategory’ to Race and Ethnicity (heart disease dataset)
+- Splitting the ‘RaceEthnicityCategory’ column to Race and Ethnicity (heart disease dataset)
 
 - Limiting the scope of the project to the US states and the District of Columbia by dropping the US territories (both datasets)
 
