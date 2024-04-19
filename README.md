@@ -19,7 +19,8 @@ As a group, we were interested in working on a healthcare project, and we found 
 
 ## Project Pipeline
 To execute the ETL process, follow these steps:
-### Datasets (csv and xlsx) -> Python (Pandas and Pandera) -> PostgreSQL -> Python (SQLAlchemy)
+
+<img width="594" alt="image" src="https://github.com/schr0841/project-3-group-03/assets/148498483/31872f2b-c13c-442f-bd26-fa68a6d19107">
 
 
 ### Data Sources
