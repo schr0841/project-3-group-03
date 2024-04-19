@@ -96,6 +96,9 @@ We learned that transformed csv files in Pandas can sometimes result in columns 
 ## Data Ethics
 The heart disease indicator dataset from Kaggle used during this project was legally obtained from the Centers for Disease Control. Each state health department collected the data using random digit dialing to continuously administer the BRFSS Frequently Asked Questions (BRFSS) surveys throughout the year. The data contained no personally identifiable information that would violate HIPAA. Furthermore, due to the anonymous nature of the survey and the fact that a covered entity (individual, organization, or agency that must follow HIPAA rules and protect the privacy and security of health information) did not administer the survey, there is no HIPAA obligation. 
 
+## Powerpoint Presentation
+![Powerpoint](https://docs.google.com/presentation/d/1nbJjvZ2oBHr72w8mUIXYPjzHL8iaukPHhhD4FCmoun8/edit#slide=id.g2cca350525d_1_9)
+
 ## References
 Center for Disease Control and Prevention (2018). BRFSS Frequently Asked Questions. Retrieved from https://www.cdc.gov/brfss/about/brfss_faq.htm
 
